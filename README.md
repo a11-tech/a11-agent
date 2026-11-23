@@ -6,18 +6,14 @@ build on [A11](https://a11.tech), the backend for apps built with the
 storage, AI, email, scheduled jobs, location and hosting.
 
 It adds one skill, which tells the agent to read the A11 Cookbook before it
-writes A11 code, and the A11 MCP server (`@a11code/mcp`). What it runs, reads
-and sends: [plugins/a11/README.md](plugins/a11/README.md).
+writes A11 code. It runs nothing itself: [plugins/a11/README.md](plugins/a11/README.md).
 
 ## Before you start
 
-Create a project and an API key at https://app.a11.tech, then set up your
-project folder:
-
-```bash
-curl -sSfL https://cli.a11.tech/install.sh | sh
-a11 init
-```
+Create a project and an API key at https://app.a11.tech, install the A11 CLI
+(instructions: https://a11.tech/#agents), then run `a11 init` in your project
+folder. It saves the project's key, and in Claude Code registers the A11 MCP
+server.
 
 ## Install
 

@@ -34,15 +34,9 @@ Rules:
 
 | What you see | What to do |
 |---|---|
-| `a11: command not found` and no `read_cookbook` tool | Ask the developer to install the CLI with the command below, then run `a11 init` in the project folder |
+| `a11: command not found` and no `read_cookbook` tool | Ask the developer to install the A11 CLI (instructions: https://a11.tech/#agents), then run `a11 init` in the project folder |
 | A key error, or a 401 from either route | The developer gets a key at https://app.a11.tech and runs `a11 init` in the project folder. It saves the key to `.a11/.env` and the system keychain |
-| The CLI works but `read_cookbook` is missing | Use the CLI route. The MCP server starts with the agent, so it appears after a restart |
-
-The CLI install command:
-
-```bash
-curl -sSfL https://cli.a11.tech/install.sh | sh
-```
+| The CLI works but `read_cookbook` is missing | Use the CLI route. In Claude Code and Cursor, `a11 init` registers the MCP server, which starts on the agent's next launch |
 
 ## 3. The API key
 

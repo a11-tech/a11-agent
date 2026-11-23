@@ -1,7 +1,7 @@
 {
   "name": "a11",
-  "version": "0.1.0",
-  "description": "Build on the A11 backend: a skill that routes your agent to the A11 Cookbook, plus the A11 MCP server (@a11code/mcp) with typed tools for data, files, auth, AI and scaffolds.",
+  "version": "0.2.0",
+  "description": "Build on the A11 backend: a skill that has your agent read the A11 Cookbook, through the A11 MCP server or the a11 CLI, before it writes A11 code.",
   "author": {
     "name": "A11",
     "email": "support@a11.tech",
@@ -10,16 +10,26 @@
   "homepage": "https://a11.tech",
   "repository": "https://github.com/a11-tech/a11-agent",
   "license": "SEE LICENSE IN LICENSE",
-  "keywords": ["a11", "backend", "baas", "sdk", "auth", "storage", "ai"],
+  "keywords": [
+    "a11",
+    "backend",
+    "baas",
+    "sdk",
+    "auth",
+    "storage",
+    "ai"
+  ],
   "skills": "./skills/",
-  "mcpServers": "./.codex-mcp.json",
   "interface": {
     "displayName": "A11",
     "shortDescription": "Build apps on the A11 backend",
-    "longDescription": "A11 is a backend for apps built with the @a11code/sdk package: end-user sign-in, files, structured data, key-value storage, AI, email, scheduled jobs, location and hosting. This plugin teaches your agent to read the A11 Cookbook, served one topic at a time with your project's A11 API key, before it writes A11 code, and adds the A11 MCP server with typed tools for the common tasks. Run `a11 init` in your project first: it stores the project's key in .a11/.env.",
+    "longDescription": "A11 is a backend for apps built with the @a11code/sdk package: end-user sign-in, files, structured data, key-value storage, AI, email, scheduled jobs, location and hosting. This plugin teaches your agent to read the A11 Cookbook, served one topic at a time with your project's A11 API key, before it writes A11 code. Install the a11 CLI and run `a11 init` in your project first: it stores the project's key, which the agent uses to read the Cookbook with the a11 CLI.",
     "developerName": "A11",
     "category": "Developer Tools",
-    "capabilities": ["Read", "Write"],
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
     "websiteURL": "https://a11.tech",
     "supportURL": "https://a11.tech",
     "privacyPolicyURL": "https://a11.tech/privacy/",
@@ -29,7 +39,7 @@
       "Store uploaded photos with A11 files"
     ],
     "brandColor": "#33C9C0",
-    "composerIcon": "./assets/a11-icon.svg",
+    "composerIcon": "./assets/a11-logo.png",
     "logo": "./assets/a11-logo.png"
   }
 }
