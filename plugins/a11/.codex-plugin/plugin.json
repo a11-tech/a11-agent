@@ -1,6 +1,6 @@
 {
   "name": "a11",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A11 gives builders and their coding agents a backend-as-a-service on the fly so you never have to configure infra services again. Let's build, it'll be Astronomical.",
   "author": {
     "name": "A11",
@@ -21,7 +21,7 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "A11",
+    "displayName": "A11 - AI Backend on the fly",
     "shortDescription": "Build apps on the A11 backend",
     "longDescription": "A11 is a backend for apps built with the @a11code/sdk package: end-user sign-in, files, structured data, key-value storage, AI, email, scheduled jobs, location and hosting. This plugin teaches your agent to read the A11 Cookbook, served one topic at a time with your project's A11 API key, before it writes A11 code. Install the a11 CLI and run `a11 init` in your project first: it stores the project's key, which the agent uses to read the Cookbook with the a11 CLI.",
     "developerName": "A11",
