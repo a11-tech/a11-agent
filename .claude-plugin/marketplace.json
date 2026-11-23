@@ -8,7 +8,7 @@
   "description": "A11 plugins for coding agents",
   "plugins": [
     {
-      "name": "a11",
+      "name": "a11tech",
       "source": "./plugins/a11",
       "description": "A11 gives builders and their coding agents a backend-as-a-service on the fly so you never have to configure infra services again. Let's build, it'll be Astronomical.",
       "category": "development",

@@ -42,7 +42,7 @@ Claude Code:
 
 ```bash
 claude plugin marketplace add a11-tech/a11-agent
-claude plugin install a11@a11-tech
+claude plugin install a11tech@a11-tech
 ```
 
 Codex:
