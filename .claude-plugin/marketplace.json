@@ -1,0 +1,18 @@
+{
+  "name": "a11-tech",
+  "owner": {
+    "name": "A11",
+    "email": "support@a11.tech",
+    "url": "https://a11.tech"
+  },
+  "description": "A11 plugins for coding agents",
+  "plugins": [
+    {
+      "name": "a11",
+      "source": "./plugins/a11",
+      "description": "Build on the A11 backend: the A11 Cookbook skill and the A11 MCP server",
+      "category": "development",
+      "tags": ["a11", "backend", "sdk"]
+    }
+  ]
+}

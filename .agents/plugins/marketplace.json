@@ -1,0 +1,20 @@
+{
+  "name": "a11-tech",
+  "interface": {
+    "displayName": "A11"
+  },
+  "plugins": [
+    {
+      "name": "a11",
+      "source": {
+        "source": "local",
+        "path": "./plugins/a11"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

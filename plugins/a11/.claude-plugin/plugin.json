@@ -1,0 +1,24 @@
+{
+  "name": "a11",
+  "displayName": "A11",
+  "version": "0.1.0",
+  "description": "Build on the A11 backend: a skill that routes your agent to the A11 Cookbook, plus the A11 MCP server (@a11code/mcp) with typed tools for data, files, auth, AI and scaffolds.",
+  "author": {
+    "name": "A11",
+    "email": "support@a11.tech",
+    "url": "https://a11.tech"
+  },
+  "homepage": "https://a11.tech",
+  "repository": "https://github.com/a11-tech/a11-agent",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": ["a11", "backend", "baas", "sdk", "auth", "storage", "ai"],
+  "network": {
+    "hosts": ["api.a11.tech", "registry.npmjs.org"]
+  },
+  "mcpServers": {
+    "a11": {
+      "command": "npx",
+      "args": ["-y", "@a11code/mcp@0.26.1"]
+    }
+  }
+}

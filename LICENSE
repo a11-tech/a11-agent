@@ -1,0 +1,67 @@
+A11 PROPRIETARY SOFTWARE LICENSE
+
+Copyright (c) 2026 A11. All rights reserved.
+
+This software and its accompanying documentation, source code, and related
+materials (the "Software") are the confidential and proprietary property of
+A11. The Software is licensed, not sold.
+
+1. GRANT OF LICENSE
+
+   Subject to your compliance with these terms and with any separate written
+   agreement or subscription terms with A11 (the "Service Terms"), A11 grants
+   you a limited, non-exclusive, non-transferable, non-sublicensable, revocable
+   license to install and use the Software solely to build, test, and operate
+   your own applications that access A11 services.
+
+2. RESTRICTIONS
+
+   Except to the extent this restriction is unenforceable under applicable law,
+   you may not:
+
+   (a) copy, modify, adapt, translate, or create derivative works of the
+       Software, except as strictly required for the permitted use above;
+   (b) reverse engineer, decompile, or disassemble the Software, or otherwise
+       attempt to derive its source code;
+   (c) distribute, sublicense, lease, rent, loan, sell, or otherwise transfer
+       the Software to any third party;
+   (d) use the Software to build, train, or improve a product or service that
+       competes with A11;
+   (e) remove, obscure, or alter any proprietary notice contained in the
+       Software.
+
+3. OWNERSHIP
+
+   A11 retains all right, title, and interest in and to the Software,
+   including all intellectual property rights. No rights are granted except
+   as expressly set out in this license.
+
+4. THIRD-PARTY COMPONENTS
+
+   The Software may include third-party components distributed under their own
+   licenses. Those components remain governed by their respective licenses,
+   which take precedence over this license as to those components only.
+
+5. TERMINATION
+
+   This license terminates automatically if you breach any of its terms, and
+   may be terminated by A11 in accordance with the Service Terms. On
+   termination you must cease all use of the Software and destroy all copies
+   in your possession or control.
+
+6. DISCLAIMER OF WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NONINFRINGEMENT.
+
+7. LIMITATION OF LIABILITY
+
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL A11 BE
+   LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY
+   DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, DATA, OR BUSINESS
+   INTERRUPTION, ARISING OUT OF OR RELATING TO THE SOFTWARE, WHETHER IN AN
+   ACTION OF CONTRACT, TORT, OR OTHERWISE, EVEN IF ADVISED OF THE POSSIBILITY
+   OF SUCH DAMAGES.
+
+For licensing enquiries, contact A11.

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "a11": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@a11code/mcp@0.26.1"],
+      "env_vars": ["A11_API_KEY"]
+    }
+  }
+}
