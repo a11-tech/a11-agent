@@ -1,7 +1,7 @@
 {
   "name": "a11",
-  "version": "0.2.0",
-  "description": "Build on the A11 backend: a skill that has your agent read the A11 Cookbook, through the A11 MCP server or the a11 CLI, before it writes A11 code.",
+  "version": "0.2.1",
+  "description": "A11 gives builders and their coding agents a backend-as-a-service on the fly so you never have to configure infra services again. Let's build, it'll be Astronomical.",
   "author": {
     "name": "A11",
     "email": "support@a11.tech",
