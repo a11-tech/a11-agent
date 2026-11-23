@@ -1,7 +1,7 @@
 {
   "name": "a11",
   "displayName": "A11",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A11 gives builders and their coding agents a backend-as-a-service on the fly so you never have to configure infra services again. Let's build, it'll be Astronomical.",
   "author": {
     "name": "A11",

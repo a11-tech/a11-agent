@@ -22,10 +22,19 @@ or the `a11` CLI.
 
 ## What it runs, reads and sends
 
-Nothing. The plugin is one Markdown skill. It runs no commands, starts no
-servers, reads no files and sends no data. The agent follows it with the tools
-you have set up: the `a11` CLI and the A11 MCP server, which send requests to
-`https://api.a11.tech` with your project's key.
+**The plugin itself:** one Markdown skill. It runs no commands, starts no
+servers, reads no files, stores nothing and collects no personal data.
+
+**What the skill asks the agent to do:** read the A11 Cookbook with tools you
+set up separately: the `a11` CLI (`a11 cookbook <topic>`), or the A11 MCP
+server's `read_cookbook` tool, which `a11 init` registers for Claude Code.
+
+| | |
+|---|---|
+| Sent to | `https://api.a11.tech` (A11's own API), and nowhere else |
+| What each request carries | The Cookbook topic name (and section, if any), your A11 project API key (from `A11_API_KEY`, your project's `.a11/.env`, or your system keychain), and from the CLI its name and version |
+| Never sent | Your code, files, conversation, or any personal data |
+| What comes back | The topic's text. The skill tells the agent not to copy it into your project |
 
 ## Install
 
